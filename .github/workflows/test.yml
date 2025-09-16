@@ -6,3 +6,8 @@ jobs:
    steps:
     - name: Print greeting
       run: echo "Hellow World!"
+  test2:
+   runs-on: ubuntu-latest
+   steps:
+    - name: Print ending
+      run: echo "The end!"   
